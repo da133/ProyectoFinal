@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Yoga Studio Template">
+    <meta name="keywords" content="Yoga, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ART WEAR</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+     <!-- animation -->
+    <link rel="stylesheet" type="text/css" href="sweetalert/sweetalert2.min.css">
+    <script type="text/javascript" src="sweetalert/sweetalert2.min.js" ></script>
+
+    
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+    
+    <!-- Search model -->
+	<div class="search-model">
+		<div class="h-100 d-flex align-items-center justify-content-center">
+			<div class="search-close-switch">+</div>
+			<form class="search-model-form">
+				<input type="text" id="search-input" placeholder="Search here.....">
+			</form>
+		</div>
+	</div>
+	<!-- Search model end -->
+
+     <!-- Header Section Begin -->
+     <header class="header-section">
+            <div class="container-fluid">
+                <div class="inner-header">
+                    <div class="logo">
+                        <a href="./index.html"><img src="img/LETRA.png" alt=""></a>
+                    </div>
+                    <div class="header-right">
+                        
+                        <img src="img/icons/man.png" alt="">
+                        <a href="#">
+                            <img src="img/icons/bag.png" alt="">
+                            <span>2</span>
+                        </a>
+                    </div>
+                    <div class="user-access">
+                        <a href="registrarse.html">Registrarse</a>
+                    <a href="login.html" class="in">Login</a>
+                    </div>
+                    <nav class="main-menu mobile-menu">
+                        <ul>
+                            <li><a class="active" href="./index.html">Inicio</a></li>
+                            <li><a href="./categories.html">Productos</a>
+                                <ul class="sub-menu">
+                                        <li><a href="./categories.html">Playeras</a></li>
+                                        <li><a href="./sudaderas.html">Sudaderas</a></li>
+                                        <li><a href="./categories.html">Jeans</a></li>
+                                        <li><a href="./categories.html">Accesorios</a></li>
+                                    <li><a href="product-page.html">Product Page</a></li>
+                                    <li><a href="shopping-cart.html">Shopping Card</a></li>
+                                    <li><a href="check-out.html">Check out</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="./lookbook.html">Lookbook</a></li>
+                            <li><a href="./check-out.html">Blog</a></li>
+                            <li><a href="./contact.html">Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+    <!-- Product Page Section Beign -->
+    <section class="product-page">
+        <div class="container">
+          
+            <div class="row">
+                <!--================login_part Area =================-->
+    <section class="login_part section_padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6">
+                    <div class="login_part_text text-center">
+                        <div class="login_part_text_iner">
+                            <h2>¿Nuevo en Art Wear?</h2>
+                            <p>Al registrarte en nuestra página podrás realizar pedidos facilmente.</p>
+                            <a href="registrarse.html" class="primary-btn">Crea una cuenta</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="login_part_form">
+                        <div class="login_part_form_iner">
+                            <h3>¡Ya tengo una cuenta! <br>
+                                </h3>
+                            <div class="row contact_form" novalidate="novalidate">
+                                <div class="col-md-12 form-group p_star">
+                                    <input type="email" class="form-control" id="email" name="email" value=""
+                                        placeholder="Email">
+                                </div>
+                                <div class="col-md-12 form-group p_star">
+                                    <input type="password" class="form-control" id="password" name="password" value=""
+                                        placeholder="Password">
+                                </div>
+                                <div class="col-md-12 form-group">
+                                    <div class="creat_account d-flex align-items-center">
+                                        <input type="checkbox" id="f-option" name="selector">
+                                        <label for="f-option">Recordarme</label>
+                                    </div>
+                                    <button type="submit"  class="btn_3" onclick="logIn()">
+                                       Ingresar
+                                    </button>
+                                    <a class="lost_pass" href="#">Olvide mi contraseña</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================login_part end =================-->
+
+
+    <!-- Related Product Section End -->
+
+    <!-- firebase -->
+    <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-app.js"></script>
+    <!-- Register End-->
+    <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-functions.js"></script>
+    
+    
+    <script src="assets/js/init-firebase.js" charset="utf-8"></script>
+    <script src="assets/js/auth.js"></script>
+
+    <!-- firebase end -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
